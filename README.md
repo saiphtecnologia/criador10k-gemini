@@ -13,14 +13,22 @@ https://maquina.criador10k.com.br
 ## Instalação no Gemini
 
 1. Acesse https://gemini.google.com no computador.
-2. Na barra lateral, clique em **Mudar para o Spark**.
-3. Abra **Habilidades**.
-4. Clique em **Fazer upload**.
+2. Abra **Configurações → Habilidades**.
+3. Clique em **Criar → Fazer upload**.
+4. Selecione **arquivos** na janela de envio.
 5. Selecione o arquivo `criador10k-gemini-skill.zip`.
 6. Revise a habilidade.
-7. Clique em **Criar**.
+7. Clique em **Criar** (ou **Salvar habilidade**, conforme a interface).
 
 O ZIP contém um `SKILL.md` na pasta principal, conforme o formato oficial de upload do Gemini.
+
+Use o arquivo de `dist/` ou da release, sem extraí-lo. O ZIP automático **Code → Download ZIP** do GitHub inclui arquivos do repositório e não é o pacote de instalação. A disponibilidade de Habilidades varia conforme a conta.
+
+Para empacotar com Python, a partir da raiz do repositório:
+
+```sh
+python -m zipfile -c dist/criador10k-gemini-skill.zip SKILL.md references
+```
 
 ## Exemplos
 

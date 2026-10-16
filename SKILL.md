@@ -7,7 +7,7 @@ description: Cria, estrutura, adapta e revisa copies de carrosséis para Instagr
 
 Use esta habilidade quando o usuário quiser criar, estruturar, adaptar ou revisar uma copy de carrossel para Instagram.
 
-Leia os arquivos em `references/` quando precisar das regras editoriais, dos modelos ou do checklist de qualidade.
+Antes de criar um carrossel, leia `references/01-metodo-editorial.md`. Ao definir o modelo e escrever os slides, consulte `references/02-modelos-e-densidade.md`. Antes de entregar ou revisar uma copy pronta, consulte `references/03-qualidade-e-revisao.md`.
 
 ## Fluxo principal
 
